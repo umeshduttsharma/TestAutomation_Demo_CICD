@@ -65,13 +65,12 @@
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence - Display Message" sap:VirtualizedContainerService.HintSize="376,250" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence - Display Message" sap:VirtualizedContainerService.HintSize="376,151" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:MessageBox Caption="{x:Null}" Buttons="YesNo" ChosenButton="[out_Result]" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Displaying a Message Box&quot; + Environment.NewLine + Environment.NewLine + &quot;1. Press Yes for success.&quot; + Environment.NewLine + &quot;2. Press No for failure.&quot;]" />
-    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;Displaying another message box&quot;]" />
   </Sequence>
 </Activity>
